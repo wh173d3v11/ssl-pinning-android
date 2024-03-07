@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">dog.ceo</domain>
+        <pin-set>
+            <!-- Pin for the SSL/TLS certificate of example.com -->
+            <pin digest="SHA-256">1yhWFYP/1C6QSVmWVHS1jaKyVaP+8idhmCFeJKFklBI=</pin>
+            <!-- Backup Pin for the SSL/TLS certificate of example.com -->
+            <pin digest="SHA-256">81Wf12bcLlFHQAfJluxnzZ6Frg+oJ9PWY/Wrwur8viQ=</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>
